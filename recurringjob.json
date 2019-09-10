@@ -1,0 +1,16 @@
+﻿[
+  {
+    "job-name": "MyJob1",
+    "job-type": "Hangfire.Topshelf.Jobs.MyJob1, Hangfire.Topshelf",
+    "cron-expression": "1 4 * * *",
+    "timezone": "China Standard Time",
+    "queue": "jobs"
+  },
+  {
+    "job-name": "MyJob2",
+    "job-type": "Hangfire.Topshelf.Jobs.MyJob2, Hangfire.Topshelf",
+    "cron-expression": "1 5 * * *",
+    "timezone": "China Standard Time",
+    "queue": "jobs"
+  }
+]
